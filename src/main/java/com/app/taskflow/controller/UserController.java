@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 
-// @CrossOrigin(origins="http://0.0.0.0:3000")
-@CrossOrigin(origins="https://taskflow03.netlify.app")
+@CrossOrigin(origins="http://0.0.0.0:3000")
+// @CrossOrigin(origins="https://taskflow03.netlify.app")
 
 @RestController
 @RequestMapping("/api/users")
